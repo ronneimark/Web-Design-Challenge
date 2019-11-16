@@ -1,18 +1,183 @@
+.navbar {
+    background-color:blue;
+    color:red;
+}
 
+.navbar-nav {
+    margin-right:0;
+    margin-left:auto;
+}
 
+.navbar li {
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer; 
+}
+
+#navbardrop {
+    margin-top:13px;
+    overflow:visible;
+}
+
+.dropdown-menu {
+    background-color:blue;
+    color:white;
+    overflow:visible;
+    
+}
+
+.dropdown-toggle {
+    overflow:visible;
+}
+
+.dropdown-item {
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
 }
 
 img {
     width:auto;
     height:auto;
-    /* max-width:100%;
-    max-height:100%;
-    min-width:fit;
-    min-height:fit; */
 }
+
+
+.nav-link {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+}
+
+li {
+    float: left;
+    display: block;
+    transition-duration: 0.5s;
+}
+
+h1 {
+    font-size:70px;
+}
+
+h2 {
+    font-size:60px;
+}
+
+.nav-title {
+    font-family:Brush Script MT;
+}
+
+.data-title {
+    text-align:left;
+    margin-left:13px
+}
+
+.data-title > h2 {
+    font-family:Brush Script MT;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color:black;
+    cursor:pointer;
+}
+
+.dropdown-menu a:hover {
+    background-color:black;
+    cursor:pointer;
+}
+
+table {
+    margin-right: auto;
+    margin-left:auto;
+    margin: 0 auto;
+}
+table th {
+    text-align: center; 
+ }
+ 
+ 
+.table {
+    margin: auto;
+    width: 68% !important; 
+}
+
+.gmap > embed{
+    height:400px;
+    width:100%;
+}
+
+.gmap > p {
+    text-align:justify;
+    margin-left:5px;
+    margin-right:20px;
+    margin-top:40px;
+}
+
+.gmap-caption2 {
+    text-align:left;
+    padding-left:10px;
+}
+
+.purpledot {
+    height: 10px;
+    width: 10px;
+    background-color:purple;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.bluedot {
+    height: 10px;
+    width: 10px;
+    background-color:blue;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.greendot {
+    height: 10px;
+    width: 10px;
+    background-color:green;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.yellowdot {
+    height: 10px;
+    width: 10px;
+    background-color:yellow;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.orangedot {
+    height: 10px;
+    width: 10px;
+    background-color:orange;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.reddot {
+    height: 10px;
+    width: 10px;
+    background-color:red;
+    border-radius: 50%;
+    display: inline-block;
+} 
