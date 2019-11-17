@@ -23,7 +23,6 @@
     background-color:blue;
     color:white;
     overflow:visible;
-    
 }
 
 .dropdown-toggle {
@@ -71,6 +70,10 @@ h2 {
     font-size:60px;
 }
 
+h3 {
+    font-size:40px;
+}
+
 .nav-title {
     font-family:Brush Script MT;
 }
@@ -82,6 +85,17 @@ h2 {
 
 .data-title > h2 {
     font-family:Brush Script MT;
+}
+
+.viz-sidebar {
+    background-color:red;
+    padding:2%;
+    font-weight:bold;
+    text-align:justify;
+}
+
+.viz-sidebar > h3 {
+    text-align:center;
 }
 
 li a {
@@ -114,7 +128,7 @@ table th {
  
 .table {
     margin: auto;
-    width: 68% !important; 
+    width: 60% !important; 
 }
 
 .gmap > embed{
