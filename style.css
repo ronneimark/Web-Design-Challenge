@@ -89,9 +89,19 @@ h3 {
 
 .viz-sidebar {
     background-color:red;
-    padding:2%;
+    padding-top:20px;
+    padding-left:5%;
+    padding-right:5%;
     font-weight:bold;
     text-align:justify;
+}
+
+.viz-sidebar > p {
+    background-color:lightblue;
+    border-style:solid;
+    border-width:5px;
+    border-color:black;
+    padding:2%;
 }
 
 .viz-sidebar > h3 {
@@ -242,11 +252,12 @@ td, th {
 }
 
 @media screen and ( max-width: 500px ) {
-    img.responsive { width: auto; }
+    img.responsive { width: auto }; 
 
-img.responsive {
-    height:auto;
+
+    img.responsive {height:auto;
 }
+
 
 @media
 only screen 
